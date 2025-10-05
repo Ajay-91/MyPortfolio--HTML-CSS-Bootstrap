@@ -1,0 +1,162 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.dm, .special,h1{
+      font-family: "DM Serif Text", serif;
+}
+
+.robo,p{
+    font-family: "Roboto", sans-serif;
+}
+
+.grey {
+  background-color: rgb(30, 30, 30);
+}
+
+body {
+  background-color: black;
+  color: whitesmoke;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: white;
+}
+
+.navbar-brand {
+  color: blueviolet;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-link:hover,
+.navbar-brand:hover {
+  color: blueviolet;
+}
+
+.home-button {
+  color: blueviolet;
+  border-color: blueviolet;
+}
+
+.home-button:hover {
+  background-color: blueviolet;
+  color: whitesmoke;
+}
+
+.home {
+  background-color: rgb(30, 30, 30);
+  padding: 3rem 0rem 3rem 0rem;
+  width: 100%;
+}
+
+#home img {
+  width: 300px;
+  border-radius: 50%;
+}
+
+.about {
+  padding: 3rem 0rem 3rem 0rem;
+}
+
+.about-section a {
+  color: dodgerblue;
+}
+
+/* .about-button button{
+    background-color:blueviolet ;
+    color:whitesmoke;
+} */
+
+.about-button i {
+  font-size: 1.75rem;
+  color: blueviolet;
+}
+
+.about-bar {
+  height: 2px;
+  width: 150px;
+  background-color: whitesmoke;
+  border-radius: 20px;
+}
+
+.special {
+  color: blueviolet;
+  text-align: center;
+}
+
+.skills-container i {
+  color: blueviolet;
+  font-size: 50px;
+  text-align: center;
+}
+.skills p {
+  color: whitesmoke;
+  text-align: center;
+}
+
+.projects p {
+  color: whitesmoke;
+}
+
+.projects h5 {
+  color: blueviolet;
+}
+
+.card-body {
+  text-align: center;
+}
+
+.card{
+    width:18rem;
+}
+
+.card1{
+    width:25rem;
+}
+
+.card-title{
+    padding:25px 0px 10px 0px;
+}
+
+@media screen and (max-width: 768px) {
+  #home img {
+    width: 250px;
+  }
+
+  .skills-container {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .project-box{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 50px;
+  }
+  .card1{
+    width:27rem;
+  }
+}
+
+@media screen and ((min-width: 768px) and (max-width:992px)) {
+
+    .home{
+        width: 100%;;
+    }
+  .skills-container {
+    display: grid;
+    justify-content: space-evenly;
+    grid-template-columns: auto auto;
+  }
+  .project-box{
+    display:grid;
+    justify-content: space-evenly;
+    grid-template-columns: auto auto;
+    gap:25px;
+  }
+  .card1{
+    width:23rem;
+  }
+}
