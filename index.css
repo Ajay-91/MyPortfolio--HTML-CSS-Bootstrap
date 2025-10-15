@@ -105,6 +105,17 @@ body {
   color: blueviolet;
 }
 
+.card1{
+  border:2px solid blueviolet;
+  border-radius: 10px;
+  padding:20px;
+  transition: 2s;
+}
+.card1:hover{
+  transform: scale(1.2);
+  box-shadow: 0 0 15px blueviolet;
+}
+
 .card-body {
   text-align: center;
 }
